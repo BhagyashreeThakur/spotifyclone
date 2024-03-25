@@ -93,7 +93,7 @@ async function displayAlbums() {
                     </path>
                 </svg>
             </div>
-            <img src="/SpotifyClone/songs/${folder}/cover.jpg" alt="card1">
+            <img src="/songs/${folder}/cover.jpg" alt="card1">
             <h2>${response.title}</h2>
             <p>${response.description}</p>
         </div>`
